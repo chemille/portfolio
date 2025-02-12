@@ -1,0 +1,153 @@
+
+<!-- <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-12 mt-4" *ngFor="let card of projectCards">
+        <div class="card">
+          <h4 class="card-title">{{ card.title }}</h4>
+          <div class="card-body">
+            <div class="text-center">
+              <a href="{{ card.backend }}" class="btn btn-success" target="_blank">Backend</a>
+              <img class="card-img-top" [src]="card.src" [alt]="card.alt" style="width:100%">
+              
+             <a href="{{ card.frontend }}" class="btn btn-primary mt-2" target="_blank">Frontend</a>
+              
+              <button class="btn btn-warning mt-2" (click)="showDetails(card)">Show Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+<!-- NOTES: 
+Angular's *ngFor directivecan be used to dynamically render 
+the cards/images. In your HTML file, add each card structure and 
+bind to each card/image's properties or actions. 
+-->
+
+<!-- ************************************************** -->
+<section id="projects">
+    <div class="portfolio">
+    <div class="container mt-3">
+        <h1 class="text-center">Projects</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="petshome.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Pets Project</h4>
+                        <div class="text-center">
+                            <a href="https://github.com/chemille/pet-project-django-react" class="btn btn-success">Backend</a>
+                            <a href="https://github.com/chemille/pet-project-frontend" class="btn btn-success">Frontend</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+    
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="wildfiremain1.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Wildfire Watchtower</h4>
+                        <div class="text-center">
+                            <a href="https://github.com/chemille/WildfireWatchtower" class="btn btn-success">Repo</a>
+                            <a href="https://devpost.com/software/wildfire-tracker-xg3cmy" class="btn btn-success">Demo</a>
+                            <a href="https://wildfirewatchtower-nb6t.onrender.com/" class="btn btn-success">Deployed link</a>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+    
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="savvyswap.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Savvy Swap</h4>
+                        <div class="text-center">
+                            <a href="https://github.com/LeeReyesCS/neighborhood-hack-backend" class="btn btn-success">Backend</a>
+                            <a href="https://github.com/LeeReyesCS/neighborhood-hack-frontend" class="btn btn-success">Frontend</a>
+                            <a href="https://devpost.com/software/savvyswap" class="btn btn-success">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="yoga4all.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Yoga-4-All</h4>
+                        <div class="text-center">
+                            <a href="https://github.com/Farrah-Unger/Capstone-Yoga-4-All-Backend" class="btn btn-success">Backend</a>
+                            <a href="https://github.com/chemille/frontend-yoga-4-all" class="btn btn-success">Frontend</a>
+                            <a href="https://www.youtube.com/watch?v=CuP4NGSjDmQ" class="btn btn-success">Demo</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="inspirationboard2.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Inspiration Board</h4>
+                        <div class="text-center">
+                            <a href="https://github.com/chemille/back-end-inspiration-board" class="btn btn-success">Backend</a>
+                            <a href="https://github.com/chemille/front-end-inspiration-board" class="btn btn-success">Frontend</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="reactchatlog.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">React Chat Log</h4>
+                        <div class="text-center">
+                            <a href="https://github.com/chemille/react-chatlog" class="btn btn-success">Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="weatherreport1.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Weather Report</h4>
+                        <div class="text-center">
+                            <a href="https://github.com/chemille/weather-report" class="btn btn-success">Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="githubrepo.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">More on my Github</h4>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Github Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>     
+    
+    <!-- Notes
+    When the Angular app was created, it didn't come with an 
+    assets folder under src. I tried making an assets folder 
+    under src followed by editing the angular.json file; 
+    however, it did not work. The only way the images will 
+    display is by putting the images in the public folder. 
+    Stack Overflow has a post about the same issue. 
+    Apparently, previous versions of Ng came with the assets
+    folder, but newer versions don't. Mine is v19.0.7
+    -->

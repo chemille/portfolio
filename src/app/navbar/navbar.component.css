@@ -1,0 +1,11 @@
+.navbar {
+    color: lightgrey;
+    background-color: #011430;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link {
+    margin: 10px;
+    padding: 5px;
+    color: lightgrey;
+}

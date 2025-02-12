@@ -1,8 +1,59 @@
-# MyAngularApp
+# My Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
+This is my personal website / portfolio. 
 
-## Development server
+## Technologies and Tools Used
+
+Angular v19.0.7
+TypeScript
+HTML
+CSS
+Bootstrap 5.1.3 
+Font Awesome 5
+Git
+
+## Installation and Scripts
+First, check to see if you have node.js and npm installed. Run: 
+
+```bash
+node -v
+```
+
+If you have node installed, you'll see a version number (e.g., v22.13.0). If node is not installed, you need to download it. --> [Download nodejs](https://nodejs.org/en/download)
+
+Check your npm version by running the following command:
+
+```bash
+npm -v
+```
+
+It will also give you a version number (e.g., v10.9.2). Npm comes bundled with node, so you don't need to install npm separately.
+
+Next, install Angular. Run:
+
+```bash
+npm install -g @angular/cli
+```
+
+Create a new Angular project with the following command:
+
+```bash
+npm new my-angular-app
+```
+
+Navigate to your project directory:
+
+```bash
+cd my-angular-app
+```
+
+To generate a new component, run:
+
+```bash
+ng g c component-name
+```
+
+This will generate the necessary files for your component.
 
 To start a local development server, run:
 
@@ -12,48 +63,7 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+To exit your server, press Ctrl + C
 
 ## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

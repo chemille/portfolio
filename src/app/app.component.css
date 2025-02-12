@@ -1,0 +1,15 @@
+
+/* Note: When I set app-footer position to absolute,
+it didn't stay at the bottom for components that were longer than the view page (100%).
+*/
+/* The following solved the issue */
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#page {
+    flex: 1;
+}
