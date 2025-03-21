@@ -15,7 +15,7 @@ export default function Navibar() {
     
     return (
         <nav className="navbar">
-            <div className="logo"><a href="/"><img src={mlogo} alt="logo" /></a></div>
+            <div className="logo"><a href="/portfolio/"><img src={mlogo} alt="logo" /></a></div>
             <div className="navbar-container">
                 <div className="hamburger-menu" onClick={toggleMenu}>
                     {isMenuOpen ? <GiCancel size={30}/> : <GiHamburgerMenu size={30}/>}
@@ -24,7 +24,7 @@ export default function Navibar() {
                 {isMenuOpen ? 
                 <ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/portfolio/">Home</Link>
                     </li>
                     <li>
                         <Link to="/projects">Projects</Link>
