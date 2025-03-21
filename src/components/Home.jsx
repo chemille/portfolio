@@ -1,9 +1,9 @@
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 import './home.css';
 import starrysky from '../images/starrysky.jpg';
 
-export default function Home() {
 
+export default function Home() {
     const sentences = [
         "Hi! I'm Michelle :)",
         "I'm a software developer.",
@@ -67,9 +67,8 @@ export default function Home() {
             <h1>{currentText}</h1>
           </div>
           <div className="photo-credit">
-        <p>Photo by <a href="https://unsplash.com/@hjuteau?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hugo Juteau</a> on <a href="https://unsplash.com/photos/low-angle-photography-of-purple-borealis-xh_l2eGV4B4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-          </p>
-          </div>
+            <p>Photo by <a href="https://unsplash.com/@hjuteau?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hugo Juteau</a> on <a href="https://unsplash.com/photos/low-angle-photography-of-purple-borealis-xh_l2eGV4B4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+          </p></div>
       </div>
     )
 };

@@ -12,6 +12,8 @@ React Router Dom
 React Icons
 Font Awesome Icons
 Git
+Github Pages
+Github Actions
 
 ## Installation and Scripts
 First, check to see if you have node.js and npm installed. Run: 
@@ -62,3 +64,17 @@ Once the server is running, open your browser and navigate to `http://localhost:
 
 To exit your server, press Ctrl + C
 
+## To build and deploy
+Run the following to build your project. 
+
+```bash
+npm run build
+```
+
+It should have created a dist folder with your build. 
+
+To deploy your project, run the following:
+
+```bash
+npm run deploy
+```
