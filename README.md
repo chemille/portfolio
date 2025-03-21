@@ -62,5 +62,3 @@ Once the server is running, open your browser and navigate to `http://localhost:
 
 To exit your server, press Ctrl + C
 
-## Additional Resources
-
