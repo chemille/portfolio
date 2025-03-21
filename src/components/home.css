@@ -1,0 +1,36 @@
+.typewriter {
+    font-family: 'Open Sans', sans-serif;  
+    white-space: wrap;
+    overflow: hidden;
+    font-size: 1rem;
+    color: white;
+    padding-top: 200px;
+}
+  
+.typewriter-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    color: white;
+}
+  
+.photo-credit {
+    position: relative;
+    height: 100vh; 
+    /* Need to play around with the height to adjust */
+}  
+
+.photo-credit p {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    color: grey;
+    font-size: 13px;
+}
+
+.photo-credit a {
+    color: grey;
+    text-decoration: none;
+}

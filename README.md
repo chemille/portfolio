@@ -1,69 +1,12 @@
-# My Portfolio
+# React + Vite
 
-This is my personal website / portfolio. 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Technologies and Tools Used
+Currently, two official plugins are available:
 
-Angular v19.0.7
-TypeScript
-HTML
-CSS
-Bootstrap 5.1.3 
-Font Awesome 5
-Git
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Installation and Scripts
-First, check to see if you have node.js and npm installed. Run: 
+## Expanding the ESLint configuration
 
-```bash
-node -v
-```
-
-If you have node installed, you'll see a version number (e.g., v22.13.0). If node is not installed, you need to download it. --> [Download nodejs](https://nodejs.org/en/download)
-
-Check your npm version by running the following command:
-
-```bash
-npm -v
-```
-
-It will also give you a version number (e.g., v10.9.2). Npm comes bundled with node, so you don't need to install npm separately.
-
-Next, install Angular. Run:
-
-```bash
-npm install -g @angular/cli
-```
-
-Create a new Angular project with the following command:
-
-```bash
-npm new my-angular-app
-```
-
-Navigate to your project directory:
-
-```bash
-cd my-angular-app
-```
-
-To generate a new component, run:
-
-```bash
-ng g c component-name
-```
-
-This will generate the necessary files for your component.
-
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-To exit your server, press Ctrl + C
-
-## Additional Resources
-
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

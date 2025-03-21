@@ -1,0 +1,74 @@
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    position: fixed;  /* Makes the navbar fixed at the top */
+    top: 0;           /* Places the navbar at the top of the page */
+    left: 0;          /* Ensures the navbar is aligned to the left of the page */
+    width: 100%;      /* Makes the navbar span across the full width of the page */
+    background-color: black; 
+    z-index: 1000;    /* Ensures the navbar stays on top of other content */
+    padding: 75px 0;  /* Adds padding to height of navbar */
+    opacity: .8;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    /* position: relative; */
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+    margin: 15px;  /* Adds some spacing between items */
+    cursor: pointer;
+}
+
+.navbar a {
+    text-decoration: none;  /* Removes the underline from links */
+    color: white;           
+    font-size: 18px;  
+    padding: 10px 15px;      
+}
+
+/* Hover effect */
+.navbar a:hover {
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.7), 0 0 30px rgba(0, 255, 255, 0.7); 
+}
+
+.hamburger-menu {
+    right: 20px;
+    top: 50%;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(-50%) /* ensure hamburger icon is vertically centered in the navbar, no matter the height of the navbar */
+}
+
+.nav-links {
+    display: flex; /* Show the links when the menu is open */
+    left: 0;
+    right: 0;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+/* Responsive design (adjusts navbar for smaller screens) */
+@media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column;  /* Stack navbar items vertically */
+      align-items: center;  /* Center the items */
+    }
+  
+    .navbar li {
+      margin: 10px 0;  /* Adds more space between items for smaller screens */
+    }
+}

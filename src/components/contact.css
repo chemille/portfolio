@@ -1,0 +1,29 @@
+.contact {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    font-size: 1.5rem;
+}
+
+.photo-credit {
+  position: relative;
+  height: 68vh; 
+  /* Need to play around with the height to adjust */
+} 
+
+.photo-credit p {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  color: grey;
+  font-size: 13px;
+}
+
+.photo-credit a {
+  color: grey;
+  text-decoration: none;
+}
+
