@@ -1,12 +1,66 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal website / portfolio. 
 
-Currently, two official plugins are available:
+## Technologies and Tools Used
+I previously used Angular v19.0.7 and TypeScript, but I redeveloped my portfolio using React and JavaScript. 
+React
+JavaScript
+HTML
+CSS
+React Router Dom
+React Icons
+Font Awesome Icons
+Git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation and Scripts
+First, check to see if you have node.js and npm installed. Run: 
 
-## Expanding the ESLint configuration
+```bash
+node -v
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If you have node installed, you'll see a version number (e.g., v22.13.0). If node is not installed, you need to download it. --> [Download nodejs](https://nodejs.org/en/download)
+
+Check your npm version by running the following command:
+
+```bash
+npm -v
+```
+
+It will also give you a version number (e.g., v10.9.2). Npm comes bundled with node, so you don't need to install npm separately.
+
+Next, create a Vite project with React. Run:
+
+```bash
+npm create vite@lastest .
+```
+
+Select a framework and variant. I chose "React" and "JavaScript".
+
+Install the application.
+
+```bash
+npm install
+```
+
+Install packages.
+
+```bash
+npm i react-router-dom@6
+npm i react-icons
+npm install --save @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons @fortawesome/free-solid-svg-icons
+```
+
+Run the following to start the React app.
+
+```bash
+npm run dev
+```
+
+Once the server is running, open your browser and navigate to `http://localhost:5173/`. The application will automatically reload whenever you modify any of the source files.
+
+To exit your server, press Ctrl + C
+
+## Additional Resources
+
