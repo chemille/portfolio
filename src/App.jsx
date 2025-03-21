@@ -17,7 +17,7 @@ function App() {
         <div style={{marginTop: '60px'}}>    {/* Add margin so content isn't hidden behind the navbar */}
         </div>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/home" element={<Home />} />
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/skills" element={<Skills />} />
           <Route exact path="/contact" element={<Contact />} />
