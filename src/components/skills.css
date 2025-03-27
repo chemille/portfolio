@@ -4,6 +4,7 @@
     padding-left: 50px;
     text-align: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -14,22 +15,22 @@ h1 {
 
 .languages { 
     padding: 15px;
+    font-size: 20px;
 }
 
 .technologies {
     padding: 15px;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .project-management {
     padding: 15px;
-    font-size: 18px;
+    font-size: 19px;
 } 
 
 .photo-credit {
     position: relative;
     height: 10vh;  /* Need to play around with the height to adjust */
-
 }
    
 .photo-credit p {
