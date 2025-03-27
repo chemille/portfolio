@@ -10,8 +10,8 @@ export default function Home() {
         "I'm a coffee lover. ☕"
     ];
     
-    const typingSpeed = 250; // milliseconds
-    const deletingSpeed = 200; // milliseconds
+    const typingSpeed = 200; // milliseconds
+    const deletingSpeed = 150; // milliseconds
     const delayBetweenSentences = 500; // milliseconds
 
     const [isTyping, setIsTyping] = useState(true); 

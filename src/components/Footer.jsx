@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <footer className="footer" class="mt-auto">
             <div className="social-icons">
-                <a href="/" target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={faHouse} />
+                <a href="/portfolio/" rel="noopener noreferrer"> <FontAwesomeIcon icon={faHouse} /> {/* target="_blank" opens in a new window */}
                 </a>
                 <a href="https://www.github.com/chemille" target="_blank"  rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} />
                 </a>

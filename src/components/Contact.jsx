@@ -36,7 +36,7 @@ export default function Contact() {
     return (
         <div style={{ backgroundImage: `url(${bluegalaxy})`, backgroundSize: 'cover', width: '100vw' }}> 
             <h1>Contact Me</h1>
-
+            <h4>Thanks for visiting my page! I'm open to new opportunities, so feel free to send me a message!</h4>
             <section className="contact">
                 <form onSubmit={onSubmit} >
                     <h2>Contact Form</h2>
